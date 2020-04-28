@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eye&Eye</title>
+	<style type="text/css">
+		@media (min-width: 980px)
+		{
+			#details
+			{
+				width: 30%;
+				top: 20%;
+				left: 35%;
+				padding: 30px;
+				border-radius: 15px;
+				background-color: #cceeff;
+				position: fixed;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 979px)
+		{
+			#details
+			{
+				width: 40%;
+				top: 20%;
+				left: 30%;
+				padding: 30px;
+				border-radius: 15px;
+				background-color: #cceeff;
+				position: fixed;
+			}
+		}
+
+		@media only screen and (max-width: 767px)
+		{
+			#details
+			{
+				width: 40%;
+				top: 20%;
+				left: 25%;
+				padding: 30px;
+				border-radius: 15px;
+				background-color: #cceeff;
+				position: fixed;
+			}
+		}
+		
+		input.in
+		{
+			border-radius: 5px;
+			padding: 5px;
+			width: 150px;
+		}
+
+		input.btn
+		{
+			border-radius: 5px;
+			padding: 5px;
+		}
+
+	</style>
+
+</head>
+<body bgcolor="#ffffe0">
+	<div id="details">
+		<form action="mail.php" method="POST">
+			<table style="padding: 2px;border-spacing: 10px;">
+				<tr>
+					<td>Name</td>
+					<td><input class = "in" type="text" name="name" placeholder="Name" autofocus required><span style="color: rgb(255,0,0);">&nbsp*</span></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input class = "in" type="text" name="email" placeholder="Email" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" oninvalid="this.setCustomValidity('Email must contain @domain.com')" onchange="this.setCustomValidity('')" oninput="try{setCustomValidity('')}catch(e){}" required><span style="color: rgb(255,0,0);">&nbsp*</span></td>
+				</tr>
+				<tr>
+					<td>Mobile No.</td>
+					<td><input class = "in" type="Number" name="Mobile" placeholder="Mobile Number" min="1000000000" max="9999999999" pattern="[0-9]{10}" required><span style="color: rgb(255,0,0);">&nbsp*</span></td>
+				</tr>
+				<tr>
+					<td>Queries</td>
+					<td><textarea name="message" rows="6" cols="20" required=""></textarea><span style="color: rgb(255,0,0);">&nbsp*</span></td>
+				</tr>
+				<tr>
+					<td colspan="2"><span style="color: rgb(255,0,0);font-size: 12px;">* marked fields are compulsary</span></td>
+				</tr>
+				<tr>
+					<td><input class = "btn" type="submit" name="submit"></td>
+					<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class = "btn" type="reset" name="reset"></td>
+				</tr>
+			</table>
+		</form>		
+	</div>
+
+	<div id = "developers" style="position: fixed;top: 90%;left: 85%;border-radius: 5px;background-color: #fff;">
+		<a href="developer.html">Meet the developers</a>
+	</div>
+
+</body>
+
+</html>

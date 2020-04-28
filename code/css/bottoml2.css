@@ -1,0 +1,71 @@
+.cart2 
+{
+    background-color: #000;
+    position: absolute;
+    left:-60px;
+    top: 40%;
+    width:100px;
+    z-index: 10;
+     -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.cart2:hover 
+{
+    left:0;
+}
+
+.cart2 a 
+{
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cart2 i 
+{
+    font-size: 25px; 
+    padding:10px;
+    background-color: #000;
+}
+
+.cart3 
+{
+    background-color: #000;
+    position: absolute;
+    left:-60px;
+    top: 60%;
+    width:100px;
+    z-index: 10;
+     -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+  
+.cart3:hover 
+{
+    left:0;
+}
+
+.cart3 a 
+{
+    color: #FFFFFF;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cart3 i 
+{
+    font-size: 25px; 
+    padding:10px;
+    background-color: #000;
+}

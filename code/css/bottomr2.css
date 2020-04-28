@@ -1,0 +1,144 @@
+@media (min-width: 980px)
+{
+    .cart1 
+    {
+      background-color: #000;
+      position: fixed;  
+      left: 97.2%;
+      top: 40%;
+      width:158px;
+      z-index: 10;
+       -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      -ms-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+
+    .cart5 
+    {
+      background-color: #000;
+      position: fixed;
+      left:97.2%;
+      top: 60%;
+      width:160px;
+      z-index: 10;
+       -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      -ms-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px)
+{
+    .cart1 
+    {
+      background-color: #000;
+      position: fixed;  
+      left:96%;
+      top: 40%;
+      width:158px;
+      z-index: 10;
+       -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      -ms-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+
+    .cart5 
+    {
+      background-color: #000;
+      position: fixed;
+      left:96%;
+      top: 60%;
+      width:160px;
+      z-index: 10;
+       -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      -ms-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .cart1 
+    {
+      background-color: #000;
+      position: fixed;  
+      left:94%;
+      top: 40%;
+      width:158px;
+      z-index: 10;
+       -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      -ms-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+
+    .cart5 
+    {
+      background-color: #000;
+      position: fixed;
+      left:94%;
+      top: 60%;
+      width:160px;
+      z-index: 10;
+       -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      -ms-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+}
+
+
+.cart1:hover 
+{
+  left: 89%;
+}
+
+.cart1 a 
+{
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cart1 i 
+{
+  font-size: 25px; 
+  padding:10px;
+  background-color: #000;
+}
+
+/* for facebook section */
+
+.cart5:hover 
+{
+  left: 89%;
+}
+
+.cart5 a 
+{
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cart5 i 
+{
+  font-size: 25px; 
+  padding:10px;
+  background-color: #000;
+}
